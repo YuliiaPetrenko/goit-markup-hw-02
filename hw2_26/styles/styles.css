@@ -1,0 +1,31 @@
+/* hover focus  */
+
+.menu [href]:hover {
+    color: #2196f3;
+}
+.menu [href]:focus {
+    color: #2196f3;
+}
+.menu [href]:active {
+    color: red;
+}
+.menu [href]:visited {
+    color: green;
+}
+button {
+    background-color: #f5f4fa;
+    color: #212121;
+}
+
+button:hover {
+    background-color: #2196f3;
+    color: #fff;
+}
+button:focus {
+    background-color: #2196f3;
+    color: #fff;
+}
+/* cursor  */
+button {
+    cursor: pointer;
+}
