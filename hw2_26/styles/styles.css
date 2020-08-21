@@ -1,31 +1,99 @@
 /* hover focus  */
 
 .menu [href]:hover {
-    color: #2196f3;
+  color: #2196f3;
 }
 .menu [href]:focus {
-    color: #2196f3;
+  color: #2196f3;
 }
 .menu [href]:active {
-    color: red;
+  color: red;
 }
 .menu [href]:visited {
-    color: green;
+  color: green;
 }
 button {
-    background-color: #f5f4fa;
-    color: #212121;
+  background-color: #f5f4fa;
+  color: #212121;
 }
 
 button:hover {
-    background-color: #2196f3;
-    color: #fff;
+  background-color: #2196f3;
+  color: #fff;
 }
 button:focus {
-    background-color: #2196f3;
-    color: #fff;
+  background-color: #2196f3;
+  color: #fff;
 }
 /* cursor  */
 button {
-    cursor: pointer;
+  cursor: pointer;
+}
+/* logo color  */
+nav .bluepart {
+  color: #2196f3;
+}
+
+nav .blackpart {
+  color: #000;
+}
+footer .bluepart {
+  color: #2196f3;
+}
+
+footer .blackpart {
+  color: #fff;
+}
+
+/* text color, fonts,size, style  */
+
+html,
+a,
+li {
+  text-align: center;
+  font-family: "roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: none;
+  line-height: 1.2;
+  font-style: normal;
+  list-style-type: none;
+}
+.company-logo span {
+  font-family: "raleway", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+.menu a,
+.contacts a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.filter,
+.button-header {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.work-header {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+}
+.work-type {
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+}
+footer address {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
 }
